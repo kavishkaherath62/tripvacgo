@@ -1,0 +1,8 @@
+# Allow any bot to index
+User-agent: *
+# Block the admin area but allow ajax callbacks
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+# Not allow to index URLs
+Disallow: /tag/
+Sitemap: sitemaps.xml
